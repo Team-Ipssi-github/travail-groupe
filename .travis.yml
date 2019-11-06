@@ -2,7 +2,7 @@ language: python
 script: echo "helloword"
 notification :
         slack : asisqy:aycOIYxYggGj2YkJ4kcxK4ZJ#git-test
-        on_failure : always
+        on_success : always
         email:
                 benbamba50@gmail.com
-        on_success : always
+        on_failure : always
