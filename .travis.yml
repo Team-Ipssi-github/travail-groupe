@@ -1,5 +1,8 @@
 language: python
-script: echo "helloword"
-notification :
-        slack : asisqy:aycOIYxYggGj2YkJ4kcxK4ZJ#git-test
-        on_success : always
+script: echo "helloworld"
+  notifications:
+    slack:
+      rooms:
+              - asisqy:aycOIYxYjjGj2YkJ4kcxK4ZJ#git-test 
+    on_success: always
+    on_failure: always
