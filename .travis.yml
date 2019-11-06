@@ -1,0 +1,8 @@
+language: python
+scrypt: echo "helloword"
+notification :
+        slack : asisqy:aycOIYxYggGj2YkJ4kcxK4ZJ#git-test
+        on_failure : always
+        email:
+                benbamba50@gmail.com
+        on success : always
