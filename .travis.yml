@@ -1,5 +1,5 @@
 language: python
-scrypt: echo "helloword"
+script: echo "helloword"
 notification :
         slack : asisqy:aycOIYxYggGj2YkJ4kcxK4ZJ#git-test
         on_failure : always
