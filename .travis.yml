@@ -3,6 +3,3 @@ script: echo "helloword"
 notification :
         slack : asisqy:aycOIYxYggGj2YkJ4kcxK4ZJ#git-test
         on_success : always
-        email:
-                benbamba50@gmail.com
-        on_failure : always
