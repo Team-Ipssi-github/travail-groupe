@@ -5,4 +5,4 @@ notification :
         on_failure : always
         email:
                 benbamba50@gmail.com
-        on success : always
+        on_success : always
